@@ -1,0 +1,16 @@
+The policy is:
+
+OSA: Permit if DLXP
+OSB: Deny if QXSY
+OSC: Deny if TWUE
+OSD: FA(OSA,OSB)
+OSE: OOA(OSD,OSC)
+HSA: Deny if OR(RQEJ,ICRF)
+HSB: Permit if PZGZ
+HSD: Deny if FTVR
+HSC: DOV(HSA,HSB)
+HSE: DOV(HSC,HSD)
+P: POV(OSE,HSE)
+
+
+The address for the script is: http://10.0.0.5/aclive/sQoSpI7l/A.php
