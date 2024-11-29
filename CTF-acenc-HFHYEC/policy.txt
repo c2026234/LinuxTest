@@ -1,0 +1,7 @@
+R1: Deny if OR(UGZ, ADF)
+R2: Permit if AND(UGZ, ADF)
+P1: DOV(R1, R2)
+R3: Permit if AND(QOC, HEQ)
+R4: Deny if HFE
+P2: DOV(R3, R4)
+P: DOV(P1, P2)
